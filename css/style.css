@@ -1,0 +1,37 @@
+body {
+    padding-top: 10px;
+    background-color: #212d3a;
+}
+
+
+/* icons */
+
+ul#socialIcons li {
+    margin: 15px;
+}
+
+ul#socialIcons li a {
+    display: inline;
+    border: 5px solid #2e3f51;
+    border-radius: 50%;
+    background-color: #2e3f51;
+    padding: 5px;
+}
+
+#socialIcons img {
+    filter: opacity(30%);
+}
+
+#socialIcons img:hover {
+    filter: invert(100%);
+}
+
+#socialIcons a:hover {
+    background-color: red;
+    border-color: red;
+}
+
+.mainMenu {
+    font-family: Georgia;
+    padding: 30px;
+}
