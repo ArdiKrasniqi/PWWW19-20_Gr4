@@ -1,89 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Classical</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <div class="wrapper">
-        <div class="navbar">
-          <div class="icons">
-            <ul class="nav" id="socialIcons">
-              <li>
-                <a href="#"><img src="images/linkedin-in.svg"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/twitter.svg"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/pinterest.svg"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/google-plus-g.svg"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/rss.svg"/></a>
-              </li>
-            </ul>
-          </div>
+        <!-- First Navbar section -->
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="icons">
+                    <ul class="nav" id="socialIcons">
+                        <li>
+                            <a href="#"><img src="images/linkedin-in.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/twitter.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/pinterest.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/google-plus-g.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/rss.svg" /></a>
+                        </li>
+                    </ul>
+                </div>
 
-          <div class="search">
-            <div id="searchForm">
-              <form>
-                <input id="searchBar" type="text" />
-                <button id="searchButton">
+                <div class="search">
+                    <div id="searchForm">
+                        <form>
+                            <input id="searchBar" type="text" />
+                            <button id="searchButton">
                   <img id="searchImg" src="images/Searchicon.svg" />
                 </button>
-              </form>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
-        <div class="secondaryBar">
-          <div class="logo">
-            <p id="classicalLogo">CLASSICAL</p>
-            <p id="psd">Free PSD Website Template</p>
-          </div>
-          <div class="tabs">
-            <ul class="nav2">
-              <li>
-                <a href="#">HOME</a>
-              </li>
-              <li>
-                <a href="#">STYLE DEMO</a>
-              </li>
-              <li>
-                <a href="#">FULL WIDTH</a>
-              </li>
-              <li>
-                <a href="#">DROPDOWN</a>
-              </li>
-              <li>
-                <a href="#">PORTFOLIO</a>
-              </li>
-              <li>
-                <a href="#">GALLERY</a>
-              </li>
-            </ul>
-          </div>
+            <!-- First Navbar section -->
+            <div class="secondaryBar">
+                <div class="logo">
+                    <p id="classicalLogo">CLASSICAL</p>
+                    <p id="psd">Free PSD Website Template</p>
+                </div>
+                <div class="tabs">
+                    <ul class="nav2">
+                        <li>
+                            <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#">STYLE DEMO</a>
+                        </li>
+                        <li>
+                            <a href="#">FULL WIDTH</a>
+                        </li>
+                        <li>
+                            <a href="#">DROPDOWN</a>
+                        </li>
+                        <li>
+                            <a href="#">PORTFOLIO</a>
+                        </li>
+                        <li>
+                            <a href="#">GALLERY</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
+
     <article>
-      <section id="carousel"></section>
+        <div id="slider">
+            <div class="photoSlider">
+                <!-- Side Text first div -->
+                <div class="leftSide">
 
-      <section id="quote"></section>
+                    <div class="controlButtons">
 
-      <section id="mainSection"></section>
+                        <a class="control-next" href="#">
+                            <span><img src="images/chevron-right.png"/></span>
+                        </a>
+                        <a class="control-back" href="#">
+                            <span><img src="images/chevron-left.png"/></span>
+                        </a>
+                    </div>
+                    <p class="sliderTitle">Aliquatjusto quisque</p>
+                    <p class="sliderText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id tristique sem. Nunc nec ipsum sed nisi dictum mollis. Praesent malesuada mauris a odio adipiscing mollis. In varius tincidunt elit vitae eleifend. Etiam fermentum suscipit
+                        est vel aliquet. Quisque malesuada luctus. Praesent malesuada mauris a odio adipiscing mollis. In varius tincidunt elit vitae eleifend. Etiam fermentum suscipit est vel aliquet. Quisque malesuada luctus.</p>
+                    <a href="#" id="readMore">Read More</a>
 
-      <section id="lowerSection"></section>
+                </div>
+
+                <!-- left photo second div -->
+                <div class="rightSide">
+                    <img class="rightImg" src="images/960x450.png" alt="">
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <section id="quote"></section>
+
+        <section id="mainSection"></section>
+
+        <section id="lowerSection"></section>
     </article>
     <footer></footer>
-  </body>
+</body>
+
 </html>
