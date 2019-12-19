@@ -191,3 +191,31 @@ ul img {
 #readMore {
     margin-top: 30px;
 }
+
+.quoteSection {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    margin: 20px 0px;
+}
+
+.rightQArrow {
+    padding-left: 25%;
+}
+
+.leftQArrow {
+    padding-left: 75%;
+}
+
+.centerText p {
+    text-align: center;
+    font-size: 120%;
+    font-style: italic;
+    font-family: Georgia;
+    color: #2E3F51;
+}
+
+hr {
+    width: 95%;
+    /* color: rgb(182, 192, 182); */
+    border: 0.5px solid rgb(215, 221, 215);
+}
