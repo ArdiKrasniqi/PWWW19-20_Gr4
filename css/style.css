@@ -206,16 +206,73 @@ ul img {
     padding-left: 75%;
 }
 
-.centerText p {
+.centerText q {
     text-align: center;
-    font-size: 120%;
+    font-size: 20px;
     font-style: italic;
     font-family: Georgia;
     color: #2E3F51;
+    width: auto;
+    display: table;
 }
 
 hr {
-    width: 95%;
-    /* color: rgb(182, 192, 182); */
+    width: 100%;
     border: 0.5px solid rgb(215, 221, 215);
+}
+
+
+/* Info Section */
+
+.infoSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: black;
+    font-family: Georgia;
+    font-size: 16px;
+    background-color: white;
+    /* padding-top: 25px; */
+    padding: 30px;
+}
+
+.iSecRight {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.iSecLeft img,
+.iSecCenter img {
+    border: 5px solid rgb(230, 222, 222);
+    box-shadow: 0px 7px 30px grey;
+}
+
+.infoSection p {
+    margin: 20px 0px;
+    width: 365px;
+    text-align: justify;
+    color: gray;
+}
+
+.iSecRight img {
+    float: left;
+    padding-right: 15px;
+}
+
+.infoSection a {
+    text-decoration: none;
+    color: #324354;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.infoSection h5 {
+    font-size: 18px;
+    font-family: Georgia;
+    color: #161616;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+.iSecRight a {
+    float: right;
 }
