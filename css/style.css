@@ -276,3 +276,26 @@ hr {
 .iSecRight a {
     float: right;
 }
+
+#lowerSection {
+    /* position: fixed; */
+    display: grid;
+    /* border:3px solid red; */
+    grid-template-columns: 50% 25% 25%;
+    background-color: #EEEEEE;
+    color: #7E7E7E;
+}
+
+#rightDiv {
+    border-collapse: separate;
+    border-spacing: 2ex 1ex;
+    position: relative;
+    left: 1em
+}
+
+.leftDivImg {
+    border-top: 4px groove #B4B5B2;
+    border-left: 4px groove #B4B5B2;
+    border-right: 4px ridge #B4B5B2;
+    border-bottom: 4px ridge #B4B5B2;
+}
