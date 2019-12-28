@@ -243,7 +243,7 @@ hr {
 .iSecLeft img,
 .iSecCenter img {
     border: 5px solid rgb(230, 222, 222);
-    box-shadow: 0px 7px 30px grey;
+    box-shadow: 0px 16px 13px -12px grey;
 }
 
 .infoSection p {
@@ -284,6 +284,7 @@ hr {
     grid-template-columns: 50% 25% 25%;
     background-color: #EEEEEE;
     color: #7E7E7E;
+    padding-left: 30px;
 }
 
 #rightDiv {
@@ -298,4 +299,40 @@ hr {
     border-left: 4px groove #B4B5B2;
     border-right: 4px ridge #B4B5B2;
     border-bottom: 4px ridge #B4B5B2;
+    margin: 10px 0px;
+}
+
+table th {
+    padding: 20px 0px;
+    text-align: left;
+}
+
+#centerDiv {
+    border-collapse: separate;
+    border-spacing: 2ex 0ex;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0px 30px;
+    color: #7E7E7E;
+    font-size: 14px;
+    padding: 0px 30px;
+}
+
+.footerLeft {}
+
+.footerRight {
+    text-align: right;
+}
+
+#hr {
+    background-color: #EEEEEE;
+    grid-column: span 3;
+    padding: 5px 0px;
 }
