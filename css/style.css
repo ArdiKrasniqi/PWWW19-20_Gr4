@@ -1,338 +1,359 @@
 ul#socialIcons li {
-    margin: 10px 5px;
+  margin: 10px 5px;
 }
 
 ul#socialIcons li a {
-    display: inline;
-    border: 5px solid #2e3f51;
-    border-radius: 50%;
-    background-color: #2e3f51;
-    padding: 5px;
+  display: inline;
+  border: 5px solid #2e3f51;
+  border-radius: 50%;
+  background-color: #2e3f51;
+  padding: 5px;
 }
 
 #socialIcons img {
-    filter: opacity(30%);
+  filter: opacity(30%);
 }
 
 #socialIcons img {
-    filter: invert(50%);
+  filter: invert(50%);
 }
 
 #socialIcons img:hover {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
 #socialIcons a:hover {
-    background-color: red;
-    border-color: red;
+  background-color: red;
+  border-color: red;
 }
 
 .mainMenu {
-    font-family: Georgia;
-    padding: 30px;
+  font-family: Georgia;
+  padding: 30px;
 }
 
 .navbar {
-    background-color: hsl(211, 27%, 18%);
-    padding: 1em 1.2em;
-    display: grid;
-    grid-template-columns: 50% 50%;
+  background-color: hsl(211, 27%, 18%);
+  padding: 1em 1.2em;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .nav {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 ul img {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 #searchForm {
-    background-color: #2e3f51;
-    height: 30px;
-    border: 1px solid #2e3f51;
-    border-radius: 40px;
+  background-color: #2e3f51;
+  height: 30px;
+  border: 1px solid #2e3f51;
+  border-radius: 40px;
 }
 
 #searchBar {
-    background-color: #2e3f51;
-    height: 20px;
-    border: 1px solid #2e3f51;
-    border-radius: 40px;
+  background-color: #2e3f51;
+  height: 20px;
+  border: 1px solid #2e3f51;
+  border-radius: 40px;
 }
 
 #searchButton {
-    background-color: #212d3a;
-    border: 1px solid #212d3a;
-    border-radius: 50%;
-    height: 25px;
-    margin-bottom: 10px;
-    padding-top: 4px;
-    margin-top: 3px;
+  background-color: #212d3a;
+  border: 1px solid #212d3a;
+  border-radius: 50%;
+  height: 25px;
+  margin-bottom: 10px;
+  padding-top: 4px;
+  margin-top: 3px;
 }
 
 #searchImg {
-    filter: invert(100%);
-    height: 15px;
-    width: 15px;
+  filter: invert(100%);
+  height: 15px;
+  width: 15px;
 }
 
 #searchForm {
-    float: right;
-    width: 32%;
+  float: right;
+  width: 32%;
 }
 
 .secondaryBar {
-    padding: 1.8em 1.2em;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    background-color: #fff;
+  padding: 1.8em 1.2em;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: #fff;
 }
 
 #classicalLogo::first-letter {
-    font-size: 37px;
+  font-size: 37px;
 }
 
 #classicalLogo {
-    font-size: 29px;
+  font-size: 29px;
 }
 
 .nav2 {
-    display: flex;
-    list-style: none;
-    float: right;
-    padding-top: 20px;
+  display: flex;
+  list-style: none;
+  float: right;
+  padding-top: 20px;
 }
 
-.nav2>li>a {
-    text-decoration: none;
-    padding: 10px;
-    font-family: Georgia;
-    color: gray;
+.nav2 > li > a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: Georgia;
+  color: gray;
 }
 
-.nav2>li>a:hover {
-    color: black;
+.nav2 > li > a:hover {
+  color: black;
 }
 
 #slider {
-    background-color: #2E3F51;
-    padding: 30px 0;
+  background-color: #2e3f51;
+  padding: 30px 0;
 }
 
 .photoSlider {
-    background-color: #2F3944;
-    display: grid;
-    grid-template-columns: 25% 75%;
-    margin: 0px 30px;
+  background-color: #2f3944;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin: 0px 30px;
 }
 
 .rightImg {
-    height: 450px;
-    width: 960px;
+  height: 450px;
+  width: 960px;
 }
 
 .rightSide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .rightSide img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .controlButtons {
-    padding-top: 0px;
-    padding-bottom: 40px;
-    width: 50px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  width: 50px;
 }
 
 .control-back {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .control-next {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .leftSide {
-    padding: 30px;
-    color: white;
-    font-size: 15px;
-    font-family: Georgia;
+  padding: 30px;
+  color: white;
+  font-size: 15px;
+  font-family: Georgia;
 }
 
 .leftSide a {
-    color: white;
-    float: right;
-    text-decoration: none;
+  color: white;
+  float: right;
+  text-decoration: none;
 }
 
 .sliderTitle {
-    margin: 30px 0px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 50;
+  margin: 30px 0px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 50;
 }
 
 .sliderText {
-    font-size: 12pt;
-    /* font-style: normal; */
-    font-weight: 1;
-    font-family: Georgia;
+  font-size: 12pt;
+  /* font-style: normal; */
+  font-weight: 1;
+  font-family: Georgia;
 }
 
 #readMore {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .quoteSection {
-    display: grid;
-    grid-template-columns: 15% 70% 15%;
-    margin: 20px 0px;
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  margin: 20px 0px;
 }
 
 .rightQArrow {
-    padding-left: 25%;
+  padding-left: 25%;
 }
 
 .leftQArrow {
-    padding-left: 75%;
+  padding-left: 75%;
 }
 
 .centerText q {
-    text-align: center;
-    font-size: 20px;
-    font-style: italic;
-    font-family: Georgia;
-    color: #2E3F51;
-    width: auto;
-    display: table;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-family: Georgia;
+  color: #2e3f51;
+  width: auto;
+  display: table;
 }
 
 hr {
-    width: 100%;
-    border: 0.5px solid rgb(215, 221, 215);
+  width: 100%;
+  border: 0.5px solid rgb(215, 221, 215);
 }
-
 
 /* Info Section */
 
 .infoSection {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: black;
-    font-family: Georgia;
-    font-size: 16px;
-    background-color: white;
-    /* padding-top: 25px; */
-    padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: black;
+  font-family: Georgia;
+  font-size: 16px;
+  background-color: white;
+  /* padding-top: 25px; */
+  padding: 30px;
 }
 
 .iSecRight {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .iSecLeft img,
 .iSecCenter img {
-    border: 5px solid rgb(230, 222, 222);
-    box-shadow: 0px 16px 13px -12px grey;
+  border: 5px solid rgb(230, 222, 222);
+  box-shadow: 0px 16px 13px -12px grey;
 }
 
 .infoSection p {
-    margin: 20px 0px;
-    width: 365px;
-    text-align: justify;
-    color: gray;
+  margin: 20px 0px;
+  width: 365px;
+  text-align: justify;
+  color: gray;
 }
 
 .iSecRight img {
-    float: left;
-    padding-right: 15px;
+  float: left;
+  padding-right: 15px;
 }
 
 .infoSection a {
-    text-decoration: none;
-    color: #324354;
-    font-size: 15px;
-    font-weight: bolder;
+  text-decoration: none;
+  color: #324354;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 .infoSection h5 {
-    font-size: 18px;
-    font-family: Georgia;
-    color: #161616;
-    font-weight: 500;
-    margin: 15px 0px;
+  font-size: 18px;
+  font-family: Georgia;
+  color: #161616;
+  font-weight: 500;
+  margin: 15px 0px;
 }
 
 .iSecRight a {
-    float: right;
+  float: right;
 }
 
 #lowerSection {
-    /* position: fixed; */
-    display: grid;
-    /* border:3px solid red; */
-    grid-template-columns: 50% 25% 25%;
-    background-color: #EEEEEE;
-    color: #7E7E7E;
-    padding-left: 30px;
+  /* position: fixed; */
+  display: grid;
+  /* border:3px solid red; */
+  grid-template-columns: 50% 25% 25%;
+  background-color: #eeeeee;
+  color: #7e7e7e;
+  padding-left: 30px;
 }
 
 #rightDiv {
-    border-collapse: separate;
-    border-spacing: 2ex 1ex;
-    position: relative;
-    left: 1em
+  border-collapse: separate;
+  border-spacing: 2ex 1ex;
+  position: relative;
+  left: 1em;
 }
 
 .leftDivImg {
-    border-top: 4px groove #B4B5B2;
-    border-left: 4px groove #B4B5B2;
-    border-right: 4px ridge #B4B5B2;
-    border-bottom: 4px ridge #B4B5B2;
-    margin: 10px 0px;
+  border-top: 4px groove #b4b5b2;
+  border-left: 4px groove #b4b5b2;
+  border-right: 4px ridge #b4b5b2;
+  border-bottom: 4px ridge #b4b5b2;
+  margin: 10px 0px;
 }
 
 table th {
-    padding: 20px 0px;
-    text-align: left;
+  padding: 20px 0px;
+  text-align: left;
 }
 
 #centerDiv {
-    border-collapse: separate;
-    border-spacing: 2ex 0ex;
+  border-collapse: separate;
+  border-spacing: 2ex 0ex;
 }
-
 
 /* Footer */
 
 .footer {
-    background-color: #EEEEEE;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    padding: 0px 30px;
-    color: #7E7E7E;
-    font-size: 14px;
-    padding: 0px 30px;
+  background-color: #eeeeee;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 0px 30px;
+  color: #7e7e7e;
+  font-size: 14px;
+  padding: 0px 30px;
 }
 
-.footerLeft {}
+.footerLeft {
+}
 
 .footerRight {
-    text-align: right;
+  text-align: right;
 }
 
 #hr {
-    background-color: #EEEEEE;
-    grid-column: span 3;
-    padding: 5px 0px;
+  background-color: #eeeeee;
+  grid-column: span 3;
+  padding: 5px 0px;
+}
+.tableText {
+  padding-bottom: 8px;
+}
+.headText {
+  margin-top: 0px;
+}
+
+.colorTable {
+  color: #505050;
+}
+
+.table-rightDiv {
+  position: relative;
+  top: -0.8ex;
+}
+
+.text-font-p {
+  font-weight: bolder;
+}
+.center-p-text {
+  padding: 15px 0px 15px;
 }
