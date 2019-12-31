@@ -33,7 +33,7 @@
     
 }
 
-#leftUpperDiv:hover ~ .contentDiv{
+/* #leftUpperDiv:hover ~ .contentDiv{
     
     filter:blur(5px);
     
@@ -60,7 +60,7 @@
         transform: scale(2) translateX(-5em) translateY(-5em);
 
 }
-#leftLowerDiv:hover ~ #leftUpperDiv{
+#leftLowerDiv:hover ~ .contentDiv{
     
     filter:blur(5px);
     
@@ -68,4 +68,4 @@
 #leftLowerDiv:hover{
         transform: scale(2) translateX(5em) translateY(-5em);
 
-}
+} */
