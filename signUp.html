@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <script src="js/check.js" type="text/JavaScript"></script>
+    <script src="js/signUp.js" type="text/JavaScript"></script>
+  </head>
+  <body>
+    <div class>
+      <div class="container-login">
+        <form onSubmit="signUp()" class="wrap-login">
+          <div class="login-form">
+            <span class="login-form-title">
+              Sign Up
+            </span>
+
+            <div class="wrap-input">
+              <span class="label-input">First name</span>
+              <input
+                class="input-login"
+                type="text"
+                name="firstname"
+                placeholder="Type your first name"
+                required
+              />
+            </div>
+
+            <div class="wrap-input">
+              <span class="label-input">Last name</span>
+              <input
+                class="input-login"
+                type="text"
+                name="username"
+                placeholder="Type your last name"
+              />
+            </div>
+
+            <div class="wrap-input">
+              <span class="label-input">Phone number</span>
+              <input
+                class="input-login"
+                type="text"
+                name="username"
+                placeholder="Type your phone number"
+              />
+            </div>
+            <div class="wrap-input ">
+              <span class="label-input">Email</span>
+              <input
+                class="input-login"
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Type your email"
+                required
+              />
+            </div>
+
+            <div class="wrap-input">
+              <span class="label-input">Password</span>
+              <input
+                class="input-login"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Type your password"
+                required
+              />
+            </div>
+            <div class="wrap-input">
+              <span class="label-input">Confirm Password</span>
+              <input
+                class="input-login"
+                type="password"
+                name="confirmPassword"
+                id="confirm"
+                placeholder="Type your password"
+                required
+              />
+            </div>
+
+            <div class="container-login-form-btn">
+              <div class="wrap-login-form-btn">
+                <div class="login-form-bgbtn"></div>
+                <button class="login-form-btn">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

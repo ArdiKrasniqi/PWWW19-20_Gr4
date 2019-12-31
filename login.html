@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <script src="js/check.js" type="text/JavaScript"></script>
+    <script src="js/login.js" type="text/JavaScript"></script>
+  </head>
+  <body>
+    <div>
+      <div
+        class="container-login"
+       >
+        <form  onSubmit="myFunction()" class="wrap-login">
+          <div class="login-form">
+            <span class="login-form-title">
+              Login
+            </span>
+
+            <div class="wrap-input">
+              <span class="label-input">Email</span>
+              <input
+                class="input-login"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Type your email"
+                required
+              />
+            </div>
+
+            <div
+              class="wrap-input"
+            >
+              <span class="label-input">Password</span>
+              <input
+                class="input-login"
+                type="password"
+                name="pass"
+                id="password"
+                placeholder="Type your password"
+                required
+              />
+            </div>
+
+            <div class="txt-forgot">
+              <a href="#">
+                Forgot password?
+              </a>
+            </div>
+
+            <div id="cannotLogin"></div>
+
+            <div class="container-login-form-btn">
+              <div class="wrap-login-form-btn">
+                <div class="login-form-bgbtn"></div>
+                <button class="login-form-btn">
+                  Login
+                </button>
+              </div>
+            </div>
+            <div class="txt2">
+              <a href="signUp.html">
+                Sign Up
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
