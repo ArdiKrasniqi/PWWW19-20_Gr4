@@ -57,7 +57,7 @@
                 required
               />
             </div>
-
+            <div id="emailTaken"></div>
             <div class="wrap-input">
               <span class="label-input">Password</span>
               <input
@@ -66,6 +66,7 @@
                 name="password"
                 id="password"
                 placeholder="Type your password"
+                minlength="6"
                 required
               />
             </div>
@@ -75,11 +76,13 @@
                 class="input-login"
                 type="password"
                 name="confirmPassword"
-                id="confirm"
+                id="confirmPassword"
                 placeholder="Type your password"
+                minlength="6"
                 required
               />
             </div>
+            <div id="passwordMatch"></div>
 
             <div class="container-login-form-btn">
               <div class="wrap-login-form-btn">
@@ -89,6 +92,11 @@
                 </button>
               </div>
             </div>
+          </div>
+          <div class="txt1">
+            <a href="index.html">
+              Back to home
+            </a>
           </div>
         </form>
       </div>

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 ul#socialIcons li {
   margin: 10px 5px;
 }
@@ -7,7 +10,7 @@ ul#socialIcons li a {
   border: 5px solid #2e3f51;
   border-radius: 50%;
   background-color: #2e3f51;
-  padding: 5px;
+  padding: 9px 5px 5px 5px;
 }
 
 #socialIcons img {
@@ -356,4 +359,18 @@ table th {
 }
 .center-p-text {
   padding: 15px 0px 15px;
+}
+.rightArrow {
+  padding: 0;
+  border: none;
+  background: none;
+}
+.leftArrow {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button:hover {
+  cursor: pointer;
 }

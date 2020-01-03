@@ -135,6 +135,15 @@ button:hover {
   padding-top: 100px;
 }
 
+.txt1 {
+  font-family: Poppins-Regular;
+  font-size: 14px;
+  line-height: 1.5;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
 a {
   color: #333333;
   text-decoration: none;
