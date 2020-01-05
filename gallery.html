@@ -1,118 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link  rel = "stylesheet" href="css/reset.css">
-    <link rel ="stylesheet" href = "css/style.css">
-    <link rel = "stylesheet" href="css/gallery.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
     <title>Clasical</title>
-</head>
-<body>
-    <header>
-        <!-- First Navbar section -->
-        <div class="wrapper">
-          <div class="navbar">
-            <div class="icons">
-              <ul class="nav" id="socialIcons">
-                <li>
-                  <a href="#"><img src="images/linkedin-in.svg"/></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/twitter.svg"/></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/pinterest.svg"/></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/google-plus-g.svg"/></a>
-                </li>
-                <li>
-                  <a href="#"><img src="images/rss.svg"/></a>
-                </li>
-              </ul>
-            </div>
-  
-            <div class="search">
-              <div id="searchForm">
-                <form>
-                  <input id="searchBar" type="text" />
-                  <button id="searchButton">
-                    <img id="searchImg" src="images/Searchicon.svg" />
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-  
-          <!-- First Navbar section -->
-          <div class="secondaryBar">
-            <div class="logo">
-              <p id="classicalLogo">CLASSICAL</p>
-              <p id="psd">Free PSD Website Template</p>
-            </div>
-            <div class="tabs">
-              <ul class="nav2">
-                <li>
-                  <a href="index.html">HOME</a>
-                </li>
-                <li>
-                  <a href="aboutUs.html">ABOUT US</a>
-                </li>
-                <li>
-                  <a href="#">FULL WIDTH</a>
-                </li>
-                <li>
-                  <a href="#">DROPDOWN</a>
-                </li>
-                <li>
-                  <a href="contactUs.html">CONTACT US</a>
-                </li>
-                <li>
-                  <a href="login.html" id="login">LOGIN</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>
-      <main id="gameSec">
-        <div id="firstDiv" class="contentDiv">
-            <canvas id="kanvas" height="260px" width="255px"> 
-                Shfletuesi juaj nuk e përkrahë kanvasin.
-            </canvas>
-        </div> 
-        <div id="secondDiv" class="contentDiv">
-            <input type = "button" value=&larr; class = "button" id="butoniMajtas" >
-            <input type = "button" value=&uarr; class = "button" id="butoniLarte">
-            <input type = "button" value=&darr; class = "button" id="butoniPoshte">
-            <input type = "button" value=&rarr; class = "button" id="butoniDjathtas">
+    <script>
+      var worker = new Worker("js/worker.js");
 
+      worker.onmessage = function(event) {
+        document.getElementById("worker_id").innerHTML =
+          event.data + " is even number";
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+      <!-- First Navbar section -->
+      <div class="wrapper">
+        <div class="navbar">
+          <div class="icons">
+            <ul class="nav" id="socialIcons">
+              <li>
+                <a href="#"><img src="images/linkedin-in.svg"/></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/twitter.svg"/></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/pinterest.svg"/></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/google-plus-g.svg"/></a>
+              </li>
+              <li>
+                <a href="#"><img src="images/rss.svg"/></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="search">
+            <div id="searchForm">
+              <form>
+                <input id="searchBar" type="text" />
+                <button id="searchButton">
+                  <img id="searchImg" src="images/Searchicon.svg" />
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
-        <div id="svgSec" >
-          <svg width = "700px" height = "200px">
-            <ellipse cx="250" cy="100" rx="100" ry="50" stroke-width="2" stroke="green" fill="yellow"/>
-            <circle cx="215" cy="70" r = "20" stroke="green" fill="red"/>
-            <circle cx="260" cy="70" r = "20" stroke="red" fill="yellow" stroke-width="5"/>
-            <rect x="200" y="100" stroke-width="10" width="150" height="40" fill="coral" stroke="brown"/>
-          </svg>
+
+        <!-- First Navbar section -->
+        <div class="secondaryBar">
+          <div class="logo">
+            <p id="classicalLogo">CLASSICAL</p>
+            <p id="psd">Free PSD Website Template</p>
+          </div>
+          <div class="tabs">
+            <ul class="nav2">
+              <li>
+                <a href="index.html">HOME</a>
+              </li>
+              <li>
+                <a href="aboutUs.html">ABOUT US</a>
+              </li>
+              <li>
+                <a href="#">FULL WIDTH</a>
+              </li>
+              <li>
+                <a href="#">DROPDOWN</a>
+              </li>
+              <li>
+                <a href="contactUs.html">CONTACT US</a>
+              </li>
+              <li>
+                <a href="login.html" id="login">LOGIN</a>
+              </li>
+            </ul>
+          </div>
         </div>
-       <div style="margin:50px;">
-          <img id="animImg" src="./images/290x180.jpg">
-          <img id="animDiv" src="./images/x-wing.jpg" width="290px" height="180px">
-        </div>
-        <div>
-          <img id="animImg2" src="./images/95x95.jpg" width="290px" height="180px">
-          <img id = "animImg3" src="./images/icecube.png" width ="290px" height="180px">
-       </div>
-       <div style="margin:50px">
-         <canvas id="kanvas2" width="300" height="300">
-           Shfletuesi juaj nuk e perkrahe kanvasin.
-         </canvas>
-       </div>
-      </main>
-      
-      <script src="js/gallery.js"></script>
-</body>
+      </div>
+    </header>
+    <main id="gameSec">
+      <div id="firstDiv" class="contentDiv">
+        <canvas id="kanvas" height="260px" width="255px">
+          Shfletuesi juaj nuk e përkrahë kanvasin.
+        </canvas>
+      </div>
+      <div id="secondDiv" class="contentDiv">
+        <input type="button" value="&larr;" class="button" id="butoniMajtas" />
+        <input type="button" value="&uarr;" class="button" id="butoniLarte" />
+        <input type="button" value="&darr;" class="button" id="butoniPoshte" />
+        <input
+          type="button"
+          value="&rarr;"
+          class="button"
+          id="butoniDjathtas"
+        />
+      </div>
+      <div id="svgSec">
+        <svg width="700px" height="200px">
+          <ellipse
+            cx="250"
+            cy="100"
+            rx="100"
+            ry="50"
+            stroke-width="2"
+            stroke="green"
+            fill="yellow"
+          />
+          <circle cx="215" cy="70" r="20" stroke="green" fill="red" />
+          <circle
+            cx="260"
+            cy="70"
+            r="20"
+            stroke="red"
+            fill="yellow"
+            stroke-width="5"
+          />
+          <rect
+            x="200"
+            y="100"
+            stroke-width="10"
+            width="150"
+            height="40"
+            fill="coral"
+            stroke="brown"
+          />
+        </svg>
+      </div>
+      <div style="margin:50px;">
+        <img id="animImg" src="./images/290x180.jpg" />
+        <img
+          id="animDiv"
+          src="./images/x-wing.jpg"
+          width="290px"
+          height="180px"
+        />
+      </div>
+      <div>
+        <img
+          id="animImg2"
+          src="./images/95x95.jpg"
+          width="290px"
+          height="180px"
+        />
+        <img
+          id="animImg3"
+          src="./images/icecube.png"
+          width="290px"
+          height="180px"
+        />
+      </div>
+      <div style="margin:50px">
+        <canvas id="kanvas2" width="300" height="300">
+          Shfletuesi juaj nuk e perkrahe kanvasin.
+        </canvas>
+      </div>
+      <p id="worker_id"></p>
+    </main>
+
+    <script src="js/gallery.js"></script>
+  </body>
 </html>
