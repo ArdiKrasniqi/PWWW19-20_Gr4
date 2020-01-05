@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Have Fun</title>
+
+    <script src="js/dragAndDeop.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dragcss.css" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header>
+        <!-- First Navbar section -->
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="icons">
+                    <ul class="nav">
+                        <li>
+                            <a href="https://www.linkedin.com/"><img src="images/linkedin-in.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"><img src="images/twitter.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/"><img src="images/pinterest.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/"><img src="images/google-plus-g.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="http://rss.com/"><img src="images/rss.svg" /></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <div class="searchForm">
+                        <form>
+                            <input class="searchBar" type="text" />
+                            <button class="searchButton">
+                  <img class="searchImg" src="images/Searchicon.svg" />
+                </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- First Navbar section -->
+            <div class="secondaryBar">
+                <div class="logo">
+                    <p class="classicalLogo">CLASSICAL</p>
+                    <p>Free PSD Website Template</p>
+                </div>
+                <div class="tabs">
+                    <ul class="nav2">
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="aboutUs.html">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="haveFun.html">GALLERY</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">HAVE FUN</a>
+                        </li>
+                        <li>
+                            <a href="contactUs.html">CONTACT US</a>
+                        </li>
+                        <li>
+                            <a href="login.html" id="login">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="DragSection">
+        <p>Drag the image between the two rectangles:</p>
+        <div class="dragWidth">
+
+            <div class="droptarget" id="firstDiv">
+                <img src="images/running-dog.jpg" width="290px" height="180px" alt="" draggable="true" id="dragtarget">
+            </div>
+            <div class="droptarget"></div>
+        </div>
+    </div>
+
+    <div class="photoGallery">
+        <h3>Photos</h3>
+        <!-- ---------------------- -->
+        <div class="photos">
+            <div class="photo1">
+                <div class="card3d middle">
+                    <div class="front">
+                        <img src="images/290x180.jpg" alt="">
+                    </div>
+                    <div class="back">
+                        <div class="back-content middle">
+                            <address>
+                                Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                                Visit us at:<br>
+                                Example.com<br>
+                                Box 564, Disneyland<br>
+                                USA
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ------------------ -->
+
+            <div class="photo2">
+                <div class="card3d middle">
+                    <div class="front">
+                        <img src="images/290x180.jpg" alt="">
+                    </div>
+                    <div class="back">
+                        <div class="back-content middle">
+                            <address>
+                                Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                                Visit us at:<br>
+                                Example.com<br>
+                                Box 564, Disneyland<br>
+                                USA
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo3">
+                <div class="card3d middle">
+                    <div class="front">
+                        <img src="images/290x180.jpg" alt="">
+                    </div>
+                    <div class="back">
+                        <div class="back-content middle">
+                            <address>
+                                Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                                Visit us at:<br>
+                                Example.com<br>
+                                Box 564, Disneyland<br>
+                                USA
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo4">
+                <div class="card3d middle">
+                    <div class="front">
+                        <img src="images/290x180.jpg" alt="">
+                    </div>
+                    <div class="back">
+                        <div class="back-content middle">
+                            <address>
+                                Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+                                Visit us at:<br>
+                                Example.com<br>
+                                Box 564, Disneyland<br>
+                                USA
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- VIDEOS -->
+    <div class="videoGallery">
+        <h3>Videos</h3>
+        <div class="videos">
+
+            <video id="videoSection" width="320" height="240" controls>
+                <source src="videos/video.mp4" type="video/mp4">
+                <source src="videos/video.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+
+            <video id="videoSection" width="320" height="240" controls>
+                <source src="videos/video.mp4" type="video/mp4">
+                <source src="videos/video.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+              </video>
+
+            <video id="videoSection" width="320" height="240" controls>
+                <source src="videos/video.mp4" type="video/mp4">
+                <source src="videos/video.mp4" type="video/ogg">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <h3>Audios</h3>
+
+        <div class="audios">
+            <audio controls>
+                <source src="Tayna X Dafina Zeqiri - Bye Bye.ogg" type="audio/ogg">
+                <source src="Tayna X Dafina Zeqiri - Bye Bye.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+
+            <audio controls>
+                <source src="Tayna X Dafina Zeqiri - Bye Bye.ogg" type="audio/ogg">
+                <source src="Tayna X Dafina Zeqiri - Bye Bye.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+
+            <audio controls>
+            <source src="Tayna X Dafina Zeqiri - Bye Bye.ogg" type="audio/ogg">
+            <source src="Tayna X Dafina Zeqiri - Bye Bye.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+        </div>
+    </div>
+
+    <!-- lowerSection -->
+
+    <div id="lowerSection">
+        <div id="leftDiv">
+            <table>
+                <thead>
+                    <th colspan="2" class="colorTable">Two Quarter</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/95x95.jpg" class="leftDivImg" /></td>
+                        <td class="tableText">
+                            <h4 class="headText">
+                                <strong>Metuervestas mus lacinia.</strong>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, ratione. Cum, modi officia molestias ullam velit dignissimos fugiat incidunt quis amet nam nisi minima veniam explicabo voluptatum sit quia illo ab! Fuga
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img src="images/95x95.jpg" width="95" height="95" class="leftDivImg" />
+                        </td>
+                        <td class="tableText">
+                            <h4 class="headText">
+                                <strong>Metuervestas mus lacinia.</strong>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, ratione. Cum, modi officia molestias ullam velit dignissimos fugiat incidunt quis amet nam nisi minima veniam explicabo voluptatum sit quia illo ab! Fuga
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="centerDiv">
+            <table>
+                <thead>
+                    <th class="colorTable">Lorem, ipsum.</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p class="center-p-text">
+                                <span class="text-font-p">Stefani Jovani</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptas cum exercitationem magni accusantiu m assumenda ex modi vero, dicta minima. Repellat voluptas cum
+                                exercitationem magni accusantiu m Repellat
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="center-p-text">
+                                <span class="text-font-p">Giuzepe Jovani</span> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptas cum exercitationem magni accusantiu m assumenda ex modi vero, dicta minima. Repellat voluptas cum
+                                exercitationem magni accusantiu m Repellat
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <table id="rightDiv">
+                <thead>
+                    <th class="table-rightDiv colorTable" colspan="3">
+                        Lorem, ipsum.
+                    </th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/65x65.jpg" width="65px" height="65px" /></td>
+                        <td><img src="images/65x65.jpg" width="65px" height="65px" /></td>
+                        <td><img src="images/65x65.jpg" width="65px" height="65px" /></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/65x65.jpg" width="65" height="65" /></td>
+                        <td><img src="images/65x65.jpg" width="65" height="65" /></td>
+                        <td><img src="images/65x65.jpg" width="65" height="65" /></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/65x65.jpg" width="65" height="65" /></td>
+                        <td><img src="images/65x65.jpg" width="65" height="65" /></td>
+                        <td><img src="images/65x65.jpg" width="65" height="65" /></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="hr">
+            <hr />
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="footerLeft">
+                <p>Copyright &copy; 2013 - All Rights Reserved - Domain Name</p>
+            </div>
+
+            <div class="footerRight">
+                <abbr title="Template By OSTemplate"> TbOST</abbr>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

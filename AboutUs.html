@@ -1,200 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel ="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/AboutUs.css" />
     <script>
-      window.addEventListener("load", function() {
-        var load_screen = document.getElementById("load_screen");
-        document.body.removeChild(load_screen);
-      });
+        window.addEventListener("load", function() {
+            var load_screen = document.getElementById("load_screen");
+            document.body.removeChild(load_screen);
+        });
     </script>
 
     <title>Classical</title>
-  </head>
-  <body id="bdy">
+</head>
+
+<body id="bdy">
     <header>
-      <!-- First Navbar section -->
-      <div>
-        <div class="navbar">
-          <div>
-            <ul class="nav" id="socialIcons">
-              <li>
-                <a href="#"><img src="images/linkedin-in.svg"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/twitter.svg"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/pinterest.svg"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/google-plus-g.svg"/></a>
-              </li>
-              <li>
-                <a href="#"><img src="images/rss.svg"/></a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <div id="searchForm">
-              <form>
-                <input id="searchBar" type="text" />
-                <button id="searchButton">
-                  <img id="searchImg" src="images/Searchicon.svg" />
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-
         <!-- First Navbar section -->
-        <div class="secondaryBar">
-          <div class="logo">
-            <p id="classicalLogo">CLASSICAL</p>
-            <p id="psd">Free PSD Website Template</p>
-          </div>
-          <div class="tabs">
-            <ul class="nav2">
-              <li>
-                <a href="#">HOME</a>
-              </li>
-              <li>
-                <a href="#">STYLE DEMO</a>
-              </li>
-              <li>
-                <a href="#">FULL WIDTH</a>
-              </li>
-              <li>
-                <a href="#">DROPDOWN</a>
-              </li>
-              <li>
-                <a href="#">PORTFOLIO</a>
-              </li>
-              <li>
-                <a href="#">GALLERY</a>
-              </li>
-            </ul>
-          </div>
+        <div class="wrapper">
+            <div class="navbar">
+                <div class="icons">
+                    <ul class="nav">
+                        <li>
+                            <a href="https://www.linkedin.com/"><img src="images/linkedin-in.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"><img src="images/twitter.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/"><img src="images/pinterest.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/"><img src="images/google-plus-g.svg" /></a>
+                        </li>
+                        <li>
+                            <a href="http://rss.com/"><img src="images/rss.svg" /></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="search">
+                    <div class="searchForm">
+                        <form>
+                            <input class="searchBar" type="text" />
+                            <button class="searchButton">
+                <img class="searchImg" src="images/Searchicon.svg" />
+              </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- First Navbar section -->
+            <div class="secondaryBar">
+                <div class="logo">
+                    <p class="classicalLogo">CLASSICAL</p>
+                    <p>Free PSD Website Template</p>
+                </div>
+                <div class="tabs">
+                    <ul class="nav2">
+                        <li>
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                            <a href="aboutUs.html">ABOUT US</a>
+                        </li>
+                        <li>
+                            <a href="haveFun.html">GALLERY</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">HAVE FUN</a>
+                        </li>
+                        <li>
+                            <a href="contactUs.html">CONTACT US</a>
+                        </li>
+                        <li>
+                            <a href="login.html" id="login">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
     <div id="load_screen">
-      <div id="loader">
-        <p>Loading Loading Loading</p>
-      </div>
+        <div id="loader">
+            <p>Loading Loading Loading</p>
+        </div>
     </div>
     <!-- <div ><p id="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, aspernatur!</p></div> -->
     <main id="mainElement">
-      <div class="contentDiv" id="leftUpperDiv">
-        <a  href="#whoarewe">
-          <h2>Who are we ?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse,
-            necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Laboriosam, dolorem.
-          </p>
-        </a>
-      </div>
-      <div class="contentDiv" id="rightUpperDiv">
-        <a href = "#whatdowedo">
-         <h2>What do we do?</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            eveniet! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-           Veritatis, consequatur.
-          </p>
-        </a>
-      </div>
-      <div class="contentDiv" id="leftLowerDiv">
-        <a href="#whatdowelike">
-          <h2>What do we like?</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga,
-            debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad,
-            ratione.
-          </p>
-        </a>
-      </div>
-      <div class="contentDiv" id="rightLowerDiv">
-        <a href="#members">
-          <h2>Members!!</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ipsa!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus, id.
-          </p>
-        </a>
-      </div>
+        <div class="contentDiv" id="leftUpperDiv">
+            <a href="#whoarewe">
+                <h2>Who are we ?</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, necessitatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, dolorem.
+                </p>
+            </a>
+        </div>
+        <div class="contentDiv" id="rightUpperDiv">
+            <a href="#whatdowedo">
+                <h2>What do we do?</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, eveniet! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, consequatur.
+                </p>
+            </a>
+        </div>
+        <div class="contentDiv" id="leftLowerDiv">
+            <a href="#whatdowelike">
+                <h2>What do we like?</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, ratione.
+                </p>
+            </a>
+        </div>
+        <div class="contentDiv" id="rightLowerDiv">
+            <a href="#members">
+                <h2>Members!!</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, id.
+                </p>
+            </a>
+        </div>
     </main>
-    <img src="images/sun.png" width="120px" height="120px" id="planet" >
+    <img src="images/sun.png" width="120px" height="120px" id="planet">
     <div id="lowDiv">
-      <div class="content" id="whoarewe">
-        <h1>Who are we ?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Qui ratione dolor architecto tenetur est. Assumenda, exercitati
-          onem beatae distinctio corrupti mollitia provident dignissimos.
-           Dolores ipsum libero eos nobis non ratione saepe.
-           Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Qui ratione dolor architecto tenetur est. Assumenda, exercitati
-          onem beatae distinctio corrupti mollitia provident dignissimos.
-           Dolores ipsum libero eos nobis non ratione saepe.
-           Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Qui ratione dolor architecto tenetur est. Assumenda, exercitati
-          onem beatae distinctio corrupti mollitia provident dignissimos.
-           Dolores ipsum libero eos nobis non ratione saepe.</p>
-           <img src="images/290x180.jpg">
-           <img src="images/moon.png" width="290" height="180" class="animImage"> 
-           <img src="images/sun.png" width="290" height="180" class ="finalImage">
-      </div>
-      <div class="content" id="whatdowedo">
-        <h1>What do we do ?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Qui ratione dolor architecto tenetur est. Assumenda, exercitati
-         onem beatae distinctio corrupti mollitia provident dignissimos.
-          Dolores ipsum libero eos nobis non ratione saepe.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Qui ratione dolor architecto tenetur est. Assumenda, exercitati
-         onem beatae distinctio Lorem ipsum dolor sit amet consectetur, a
-         dipisicing elit. Voluptas, expedita? corrupti mollitia provident dignissimos.
-          Dolores ipsum libero eos nobis non ratione saepe.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Qui ratione dolor architecto tenetur est. Assumenda, exercitati
-         onem beatae distinctio corrupti mollitia provident dignissimos.
-          Dolores ipsum libero eos nobis non ratione saepe.</p>
-          <img src="images/290x180.jpg">
-          <img src="images/290x180.jpg" >
-      </div>
-      <div class="content" id="whatdowelike">
-        <h1>What do we like ?</h1>
-        <p>
-           Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Voluptatem alias, illo expedita nesciunt assumenda nam 
-           aperiam sed deserunt, inventore atque eligendi! Quam, a
-           utem, consequatur laudantium, sit facere et harum ipsam accusamus 
-           doloremque perferendis consequuntur vel!   Lorem ipsum dolor sit 
-           amet consectetur adipisicing elit. Facilis, ipsum.
-        </p>
-        <img src="images/290x180.jpg">
-        <img src="images/290x180.jpg">
-       </div>
-      <div class="content" id="members">
-        <h1>Members !</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio quia
-           quis ea voluptatum numquam error minima ipsam sapiente, dolore porro in pr
-           ovident. Et dicta consequuntur possimus dolor ullam, animi minima quis quasi
-            nemo, unde harum, fugit nesciunt nulla ratione commodi?
-        </p>
-        <img src="images/290x180.jpg">
-        <img src="images/290x180.jpg">      
-      </div>
+        <div class="content" id="whoarewe">
+            <h1>Who are we ?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione dolor architecto tenetur est. Assumenda, exercitati onem beatae distinctio corrupti mollitia provident dignissimos. Dolores ipsum libero eos nobis non ratione saepe. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Qui ratione dolor architecto tenetur est. Assumenda, exercitati onem beatae distinctio corrupti mollitia provident dignissimos. Dolores ipsum libero eos nobis non ratione saepe. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Qui ratione dolor architecto tenetur est. Assumenda, exercitati onem beatae distinctio corrupti mollitia provident dignissimos. Dolores ipsum libero eos nobis non ratione saepe.</p>
+            <img src="images/290x180.jpg">
+            <img src="images/moon.png" width="290" height="180" class="animImage">
+            <img src="images/sun.png" width="290" height="180" class="finalImage">
+        </div>
+        <div class="content" id="whatdowedo">
+            <h1>What do we do ?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione dolor architecto tenetur est. Assumenda, exercitati onem beatae distinctio corrupti mollitia provident dignissimos. Dolores ipsum libero eos nobis non ratione saepe. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Qui ratione dolor architecto tenetur est. Assumenda, exercitati onem beatae distinctio Lorem ipsum dolor sit amet consectetur, a dipisicing elit. Voluptas, expedita? corrupti mollitia
+                provident dignissimos. Dolores ipsum libero eos nobis non ratione saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ratione dolor architecto tenetur est. Assumenda, exercitati onem beatae distinctio corrupti mollitia
+                provident dignissimos. Dolores ipsum libero eos nobis non ratione saepe.</p>
+            <img src="images/290x180.jpg">
+            <img src="images/290x180.jpg">
+        </div>
+        <div class="content" id="whatdowelike">
+            <h1>What do we like ?</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem alias, illo expedita nesciunt assumenda nam aperiam sed deserunt, inventore atque eligendi! Quam, a utem, consequatur laudantium, sit facere et harum ipsam accusamus doloremque perferendis
+                consequuntur vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ipsum.
+            </p>
+            <img src="images/290x180.jpg">
+            <img src="images/290x180.jpg">
+        </div>
+        <div class="content" id="members">
+            <h1>Members !</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio quia quis ea voluptatum numquam error minima ipsam sapiente, dolore porro in pr ovident. Et dicta consequuntur possimus dolor ullam, animi minima quis quasi nemo, unde harum,
+                fugit nesciunt nulla ratione commodi?
+            </p>
+            <img src="images/290x180.jpg">
+            <img src="images/290x180.jpg">
+        </div>
     </div>
-
     <script src="js/AboutUs.js"></script>
-  </body>
+</body>
+
 </html>

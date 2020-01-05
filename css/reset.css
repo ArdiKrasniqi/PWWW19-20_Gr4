@@ -30,6 +30,8 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus,
-datalist:focus {
+datalist:focus,
+video:focus,
+audio:focus {
     outline: none;
 }
