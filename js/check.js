@@ -1,8 +1,10 @@
 
-function getCookie(name) {
-    var value = "; " + document.cookie;
-    var parts = value.split("; " + name + "=");
-    if (parts.length == 2) return parts[1];
+var online = navigator.onLine;
+if (online) {
+    console.log('osht online')
+} else {
+    console.log('sosht online')
+    // location.href = 'login.html';
 }
 
 function getSession(name) {
