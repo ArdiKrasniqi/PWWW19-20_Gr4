@@ -6,7 +6,7 @@ function initMap() {
             lat: -34.397,
             lng: 150.644
         },
-        zoom: 13
+        zoom: 14
     });
     infoWindow = new google.maps.InfoWindow;
 
@@ -18,13 +18,20 @@ function initMap() {
                 lng: position.coords.longitude
             };
 
+            var marker = new google.maps.Marker({
+                position: pos,
+                map: map,
+                animation: google.maps.Animation.BOUNCE,
+                draggable: true
+            });
+
             infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(map);
             map.setCenter(pos);
         }, function() {
             handleLocationError(true, infoWindow, map.getCenter());
         });
+
+
     } else {
         handleLocationError(false, infoWindow, map.getCenter());
     }

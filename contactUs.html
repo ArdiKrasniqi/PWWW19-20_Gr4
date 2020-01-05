@@ -9,8 +9,9 @@
     <title>Classical</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/contactUs.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/contactUs.css" />
+
 
 </head>
 
@@ -20,31 +21,31 @@
         <div class="wrapper">
             <div class="navbar">
                 <div class="icons">
-                    <ul class="nav" id="socialIcons">
+                    <ul class="nav">
                         <li>
-                            <a href="#"><img src="images/linkedin-in.svg" /></a>
+                            <a href="https://www.linkedin.com/"><img src="images/linkedin-in.svg" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="images/twitter.svg" /></a>
+                            <a href="https://twitter.com/"><img src="images/twitter.svg" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="images/pinterest.svg" /></a>
+                            <a href="https://www.pinterest.com/"><img src="images/pinterest.svg" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="images/google-plus-g.svg" /></a>
+                            <a href="https://www.google.com/"><img src="images/google-plus-g.svg" /></a>
                         </li>
                         <li>
-                            <a href="#"><img src="images/rss.svg" /></a>
+                            <a href="http://rss.com/"><img src="images/rss.svg" /></a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="search">
-                    <div id="searchForm">
+                    <div class="searchForm">
                         <form>
-                            <input id="searchBar" type="text" />
-                            <button id="searchButton">
-                  <img id="searchImg" src="images/Searchicon.svg" />
+                            <input class="searchBar" type="text" />
+                            <button class="searchButton">
+                  <img class="searchImg" src="images/Searchicon.svg" />
                 </button>
                         </form>
                     </div>
@@ -54,16 +55,16 @@
             <!-- First Navbar section -->
             <div class="secondaryBar">
                 <div class="logo">
-                    <p id="classicalLogo">CLASSICAL</p>
-                    <p id="psd">Free PSD Website Template</p>
+                    <p class="classicalLogo">CLASSICAL</p>
+                    <p>Free PSD Website Template</p>
                 </div>
                 <div class="tabs">
                     <ul class="nav2">
                         <li>
-                            <a href="#">HOME</a>
+                            <a href="index.html">HOME</a>
                         </li>
                         <li>
-                            <a href="#">STYLE DEMO</a>
+                            <a href="aboutUs.html" target="_blank">ABOUT US</a>
                         </li>
                         <li>
                             <a href="#">FULL WIDTH</a>
@@ -72,10 +73,10 @@
                             <a href="#">DROPDOWN</a>
                         </li>
                         <li>
-                            <a href="#">PORTFOLIO</a>
+                            <a href="contactUs.html">CONTACT US</a>
                         </li>
                         <li>
-                            <a href="#">GALLERY</a>
+                            <a href="login.html" id="login">LOGIN</a>
                         </li>
                     </ul>
                 </div>
@@ -125,7 +126,19 @@
 
                 <input type="text" class="email" placeholder="E-mail">
 
-                <input type="text" class="subject" placeholder="Subject">
+                <input list="city" class="city" placeholder="City">
+
+                <datalist id="city">
+                    <option value="Prishtina">
+                    <option value="Prizren">
+                    <option value="Ferizaj">
+                    <option value="Pejë">
+                    <option value="Suharekë">
+                    <option value="Malishevë">
+                    <option value="Deçan">
+                    <option value="Klinë">
+                    <option value="Fushë Kosovë">
+                 </datalist>
 
                 <textarea name="message" class="message" rows="6" placeholder="Your message here..."></textarea>
 
