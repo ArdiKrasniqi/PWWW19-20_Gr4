@@ -91,8 +91,40 @@
 .content > p{
     margin-bottom: 1em;
 }
+.animImage{
+    opacity: 0;
+}
 .content > img{
+    /* position: relative; */
+    /* left:15em; */
     margin-right: 3em;
+    /* transform: all 4s linear; */
+
+}
+.content > img:hover {
+    animation: ndrroFoton 2s linear .5s 1;
+}
+.content > img:hover ~img {
+    /* transform: translateX(-300px); */
+    animation: ndrroFoton2 2s linear .5s 1  ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes ndrroFoton {
+    /* 10% {filter:blur(2px)} */
+    0%  { opacity: 1;}
+    25% { opacity :0.75 } 
+    50% { opacity: 0.5}
+    75% {  opacity: 0.25;}
+    100%{ opacity: 0;}
+}
+@keyframes ndrroFoton2 {
+    /* 10% {filter:blur(2px)} */
+    0% { opacity :0 } 
+    25% {opacity: 0.25;}
+    50% { opacity: 0.5}
+    75%{ opacity: 0.75;}
+    100%{opacity: 1;}
 }
 
 
