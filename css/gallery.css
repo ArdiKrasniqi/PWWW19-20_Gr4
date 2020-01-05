@@ -1,5 +1,10 @@
 body{
     background-color: lightblue;
+    background-image: url("../images/moon.png") ,url("../images/icecube.png");
+    background-size: 200px ;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position: bottom right,bottom left;
 }
 .contentDiv{
     border : 20px;
@@ -8,13 +13,17 @@ body{
 #gameSec{
     height: 350px;
     margin:30px;
+    float: left;
+    margin-left: 13rem;
     display:grid ;
     grid-template-rows: 75% 25%;
     text-align: center;
     
 }
-#secondDiv{
-    
+
+
+#svgSec > svg  {
+    padding-left: 6rem;
 }
 .button{
     background-color: coral;
@@ -22,5 +31,50 @@ body{
     height: 50px;
     margin:10px;
 }
+#svgSec {
+    text-align:center;
+    border : 10px ;
+    padding:5px;
+    margin:20px;
+}
+#lowerDiv{
+    margin:20px;
+    text-align: center;
+    
+}
+#animImg{
+    transition: all 2s linear;
+    margin-bottom: 20px;
 
+}
+#animDiv{
+    
+    width:100px;
+    height:100px;
+    margin: auto;
+    background-color:red;
+    transition: all 2s ease-in-out ;
+    transition-delay: 0.3s;
+    float: left;
 
+}
+#animDiv:hover{
+    transform:skew(-25deg);
+}
+#animImg:hover {
+    transform: skew(30deg);
+}
+#animImg2{
+    transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+    transition-delay: 0.5s;
+}
+#animImg2:hover{
+    transform:rotateX(120deg);
+}
+#animImg3{
+    transition: all 3s ease-in ;
+    transition-delay: 0.5s;
+}
+#animImg3:hover{
+     transform: perspective(500px) translateZ(200px);
+}
