@@ -148,3 +148,31 @@ a {
   color: #333333;
   text-decoration: none;
 }
+
+.gander-wrap {
+  margin-top: 10px;
+  width: 50%;
+  height: 30px;
+  padding: 0 7px 0 15px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 2fr;
+}
+
+.terms-wrap {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  padding: 26px;
+  padding: 0 7px 0 15px;
+}
+
+@font-face {
+  font-family: "myFont";
+  src: url(sansation_light.woff);
+}
+.font-implement {
+  font-family: myFont;
+}

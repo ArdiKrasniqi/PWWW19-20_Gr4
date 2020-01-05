@@ -1,4 +1,5 @@
-if (getSession('token') || getCookie('token')) {
+
+if (getSession('token')) {
     document.getElementById("login").href = 'logout.html'
     document.getElementById("login").innerHTML = 'LOGOUT'
 }
@@ -7,7 +8,7 @@ var indexText = 0;
 slider();
 sliderText();
 function slider() {
-    var img = ["images/chevron-left-b.png", "images/960x450.png", "images/chevron-right-b.png"];
+    var img = ["images/290x180.jpg", "images/960x450.png", "images/95x95.jpg"];
     var sliderTitle = ["Aliquatjusto quisque one",
         "Aliquatjusto quisque two",
         "Aliquatjusto quisque three"
@@ -45,11 +46,13 @@ function previous() {
 }
 
 function nextText() {
+    event.preventDefault();
     indexText = (indexText + 1) % 3;
     sliderText();
 }
 
 function previousText() {
+    event.preventDefault();
     indexText = (indexText - 1) % 3;
     if (indexText < 0) {
         indexText += 3

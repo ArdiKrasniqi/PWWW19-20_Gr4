@@ -72,8 +72,9 @@ function trubulloTekstin() {
 var ora = new Date().getHours();
 
 function levizPlanetin() {
+    
     var planeti = document.getElementById("planet");
-    if (ora > 18 || ora < 6)
+    if (ora >= 18 || ora < 6)
         planeti.setAttribute("src", "images/moon.png");
     else
         planeti.setAttribute("src", "images/sun.png");
