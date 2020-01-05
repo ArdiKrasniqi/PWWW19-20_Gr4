@@ -209,3 +209,14 @@ window.addEventListener("keydown", event => {
     }
 
 })
+
+
+const VizatimiGradient = function(){
+    let penda = document.getElementById("kanvas2").getContext("2d");
+    let grad = penda.createLinearGradient(0,0,300,300);
+    grad.addColorStop(0,"orange");
+    grad.addColorStop(1,"red");
+    penda.fillStyle = grad;
+    penda.fillRect(0,0,300,300);
+}
+let temp = new VizatimiGradient();

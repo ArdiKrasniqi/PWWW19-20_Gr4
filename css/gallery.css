@@ -44,19 +44,15 @@ body{
 }
 #animImg{
     transition: all 2s linear;
-    margin-bottom: 20px;
+    margin-right: 50px;
 
 }
 #animDiv{
     
-    width:100px;
-    height:100px;
-    margin: auto;
-    background-color:red;
+    
     transition: all 2s ease-in-out ;
     transition-delay: 0.3s;
-    float: left;
-
+    
 }
 #animDiv:hover{
     transform:skew(-25deg);
@@ -65,11 +61,12 @@ body{
     transform: skew(30deg);
 }
 #animImg2{
+    margin-right: 50px;
     transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
     transition-delay: 0.5s;
 }
 #animImg2:hover{
-    transform:rotateX(120deg);
+    transform:perspective(500px) rotateX(120deg);
 }
 #animImg3{
     transition: all 3s ease-in ;
