@@ -1,77 +1,91 @@
-body{
-    background-color: lightblue;
-    background-image: url("../images/moon.png") ,url("../images/icecube.png");
-    background-size: 200px ;
-    background-repeat: no-repeat ;
+body {
+    background-color: #d1d1d1;
+    background-image: url("../images/moon.png"), url("../images/icecube.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: bottom right,bottom left;
+    background-position: bottom right, bottom left;
 }
-.contentDiv{
-    border : 20px;
-    padding :10px;
+
+.contentDiv {
+    border: 20px;
+    padding: 10px;
 }
-#gameSec{
+
+.body {
+    margin: 20px;
+}
+
+#gameSec {
     height: 350px;
-    margin:30px;
+    margin: 30px;
     float: left;
     margin-left: 13rem;
-    display:grid ;
+    display: grid;
     grid-template-rows: 75% 25%;
     text-align: center;
-    
 }
 
+main {
+    padding: 20px;
+}
 
-#svgSec > svg  {
+#svgSec>svg {
     padding-left: 6rem;
 }
-.button{
+
+.button {
     background-color: coral;
-    width :40px;
+    width: 40px;
     height: 50px;
-    margin:10px;
+    margin: 10px;
 }
+
 #svgSec {
-    text-align:center;
-    border : 10px ;
-    padding:5px;
-    margin:20px;
-}
-#lowerDiv{
-    margin:20px;
     text-align: center;
-    
+    border: 10px;
+    padding: 5px;
+    margin: 20px;
 }
-#animImg{
+
+#lowerDiv {
+    margin: 20px;
+    text-align: center;
+}
+
+#animImg {
     transition: all 2s linear;
     margin-right: 50px;
+}
 
-}
-#animDiv{
-    
-    
-    transition: all 2s ease-in-out ;
+#animDiv {
+    transition: all 2s ease-in-out;
     transition-delay: 0.3s;
-    
 }
-#animDiv:hover{
-    transform:skew(-25deg);
+
+#animDiv:hover {
+    transform: skew(-25deg);
 }
+
 #animImg:hover {
     transform: skew(30deg);
 }
-#animImg2{
+
+#animImg2 {
     margin-right: 50px;
-    transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+    transition: all 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition-delay: 0.5s;
 }
-#animImg2:hover{
-    transform:perspective(500px) rotateX(120deg);
+
+#animImg2:hover {
+    transform: perspective(500px) rotateX(120deg);
 }
-#animImg3{
-    transition: all 3s ease-in ;
+
+#animImg3 {
+    transition: all 3s ease-in;
     transition-delay: 0.5s;
 }
-#animImg3:hover{
-     transform: perspective(500px) translateZ(200px);
+
+#animImg3:hover {
+    transform: perspective(500px) translateZ(200px);
 }

@@ -1,129 +1,155 @@
-#load_screen{
-    background-color:#2E3F51;
+#load_screen {
+    background-color: #2E3F51;
     position: absolute;
     text-align: center;
-    top:20em;
-    left:45%;
+    top: 20em;
+    left: 45%;
 }
-#load{
-    text-align:center;
+
+#load {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    
-    }
-#mainElement{
-    position:absolute;
-    top:22em;
-    left:12em;
+}
+
+#mainElement {
+    position: absolute;
+    top: 22em;
+    left: 12em;
     display: grid;
     /* border:2px solid red; */
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    
-    
 }
-.contentDiv{
-    width : 20em;
-    text-align:center;
-    font-family:'Times New Roman', Times, serif;
+
+.contentDiv {
+    width: 20em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
-    transition:all 1s linear .2s;
-    border:10px ;
+    transition: all 1s linear .2s;
+    border: 10px;
     /* solid red;  */
-    padding:20px;
-    margin:20px;
+    padding: 20px;
+    margin: 20px;
     z-index: 1;
-    color:white;
+    color: white;
 }
-.contentDiv > a{
+
+.contentDiv>a {
     text-decoration: none;
-    color : white;
+    color: white;
     /* #757575; */
-
-
 }
 
-
-#leftUpperDiv:hover{
-        transform: scale(2) translateX(4em) translateY(4em);
-
+#leftUpperDiv:hover {
+    transform: scale(2) translateX(4em) translateY(4em);
 }
 
-#rightUpperDiv:hover{
-        transform: scale(2) translateX(-4em) translateY(4em);
-
+#rightUpperDiv:hover {
+    transform: scale(2) translateX(-4em) translateY(4em);
 }
 
-#rightLowerDiv:hover{
-        transform: scale(2) translateX(-4em) translateY(-4em);
-
+#rightLowerDiv:hover {
+    transform: scale(2) translateX(-4em) translateY(-4em);
 }
-#leftLowerDiv:hover{
-        transform: scale(2) translateX(4em) translateY(-4em);
 
-} 
-#planet{
+#leftLowerDiv:hover {
+    transform: scale(2) translateX(4em) translateY(-4em);
+}
+
+#planet {
     position: relative;
-    top:20em;
-    left:70em;
-    transform-origin: -30em 20em ;
+    top: 20em;
+    left: 70em;
+    transform-origin: -30em 20em;
     /* filter:blur(5px); */
-    z-index: 0;      
+    z-index: 0;
 }
-#lowDiv{
-    position:relative;
-    top:30em;
+
+#lowDiv {
+    position: relative;
+    top: 30em;
     /* border:10px solid red; */
-    display:grid;
+    display: grid;
 }
-.content{
+
+.content {
     /* border:10px solid blue; */
     text-align: center;
     width: 80%;
-    padding:10px;
-    margin-left:6em;
+    padding: 10px;
+    margin-left: 6em;
 }
 
-.content > h1{
-    font-size:27px;
+.content>h1 {
+    font-size: 27px;
     margin-bottom: 1em;
 }
-.content > p{
+
+.content>p {
     margin-bottom: 1em;
 }
-.animImage{
+
+.animImage {
     opacity: 0;
 }
-.content > img{
+
+.content>img {
     /* position: relative; */
     /* left:15em; */
     margin-right: 3em;
     /* transform: all 4s linear; */
-
 }
-.content > img:hover {
+
+.content>img:hover {
     animation: ndrroFoton 2s linear .5s 1;
 }
-.content > img:hover ~img {
+
+.content>img:hover~img {
     /* transform: translateX(-300px); */
-    animation: ndrroFoton2 2s linear .5s 1  ;
+    animation: ndrroFoton2 2s linear .5s 1;
 }
 
 @keyframes ndrroFoton {
     /* 10% {filter:blur(2px)} */
-    0%  { opacity: 1;}
-    25% { opacity :0.75 } 
-    50% { opacity: 0.5}
-    75% {  opacity: 0.25;}
-    100%{ opacity: 0;}
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0.75
+    }
+    50% {
+        opacity: 0.5
+    }
+    75% {
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 0;
+    }
 }
+
 @keyframes ndrroFoton2 {
     /* 10% {filter:blur(2px)} */
-    0% { opacity :0 } 
-    25% {opacity: 0.25;}
-    50% { opacity: 0.5}
-    75%{ opacity: 0.75;}
-    100%{opacity: 1;}
+    0% {
+        opacity: 0
+    }
+    25% {
+        opacity: 0.25;
+    }
+    50% {
+        opacity: 0.5
+    }
+    75% {
+        opacity: 0.75;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-
+.rate {
+    column-count: 3;
+    column-gap: 25px;
+}

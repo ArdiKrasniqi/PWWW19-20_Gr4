@@ -87,20 +87,22 @@
             </div>
         </div>
     </header>
-    <main id="gameSec">
-        <div id="firstDiv" class="contentDiv">
-            <canvas id="kanvas" height="260px" width="255px">
+
+    <div class="body">
+        <main id="gameSec">
+            <div id="firstDiv" class="contentDiv">
+                <canvas id="kanvas" height="260px" width="255px">
           Shfletuesi juaj nuk e përkrahë kanvasin.
         </canvas>
-        </div>
-        <div id="secondDiv" class="contentDiv">
-            <input type="button" value="&larr;" class="button" id="butoniMajtas" />
-            <input type="button" value="&uarr;" class="button" id="butoniLarte" />
-            <input type="button" value="&darr;" class="button" id="butoniPoshte" />
-            <input type="button" value="&rarr;" class="button" id="butoniDjathtas" />
-        </div>
-        <div id="svgSec">
-            <svg width="700px" height="200px">
+            </div>
+            <div id="secondDiv" class="contentDiv">
+                <input type="button" value="&larr;" class="button" id="butoniMajtas" />
+                <input type="button" value="&uarr;" class="button" id="butoniLarte" />
+                <input type="button" value="&darr;" class="button" id="butoniPoshte" />
+                <input type="button" value="&rarr;" class="button" id="butoniDjathtas" />
+            </div>
+            <div id="svgSec">
+                <svg width="700px" height="200px">
           <ellipse
             cx="250"
             cy="100"
@@ -129,23 +131,41 @@
             stroke="brown"
           />
         </svg>
-        </div>
-        <div style="margin:50px;">
-            <img id="animImg" src="./images/290x180.jpg" />
-            <img id="animDiv" src="./images/x-wing.jpg" width="290px" height="180px" />
-        </div>
-        <div>
-            <img id="animImg2" src="./images/95x95.jpg" width="290px" height="180px" />
-            <img id="animImg3" src="./images/icecube.png" width="290px" height="180px" />
-        </div>
-        <div style="margin:50px">
-            <canvas id="kanvas2" width="300" height="300">
+            </div>
+            <div style="margin:50px;">
+                <img id="animImg" src="./images/290x180.jpg" />
+                <img id="animDiv" src="./images/x-wing.jpg" width="290px" height="180px" />
+            </div>
+            <div>
+                <img id="animImg2" src="./images/95x95.jpg" width="290px" height="180px" />
+                <img id="animImg3" src="./images/icecube.png" width="290px" height="180px" />
+            </div>
+            <div style="margin:50px">
+                <canvas id="kanvas2" width="300" height="300">
           Shfletuesi juaj nuk e perkrahe kanvasin.
         </canvas>
-        </div>
-        <p id="worker_id"></p>
-    </main>
-    <script src="js/gallery.js"></script>
+            </div>
+            <div>
+                <p id="worker_id"></p>
+            </div>
+            <div style="margin:auto">
+                <table border="1px" cellspacing="10px" cellpadding="5px">
+                    <thead>
+                        <th>Emri</th>
+                        <th bgcolor="blue">Mbiemri</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Filon</td>
+                            <td>Fisteku</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </main>
+        <script src="js/gallery.js"></script>
+    </div>
 </body>
 
 </html>
